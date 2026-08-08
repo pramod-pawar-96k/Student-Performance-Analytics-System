@@ -27,3 +27,4 @@ build/
 
 # Eclipse workspace metadata
 .metadata/
+.settings/
