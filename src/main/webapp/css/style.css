@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center container */
+.container {
+    width: 420px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Labels & Inputs */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #2c7be5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #1a68d1;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #2c7be5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error text */
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.dashboard a {
+    text-decoration: none;
+    background: #2f80ed;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.dashboard a:hover {
+    background: #1c6ed5;
+}
+
+.dashboard .logout {
+    background: #e74c3c;
+}
+
+.dashboard .logout:hover {
+    background: #c0392b;
+}
+.home-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.home-actions a {
+    text-decoration: none;
+    background: #2f80ed;
+    color: white;
+    padding: 14px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.home-actions a.secondary {
+    background: #27ae60;
+}
+
+.home-actions a.secondary:hover {
+    background: #219150;
+}
+/* ===== RANK TABLE STYLING ===== */
+/* ===== RANK LIST CARD ===== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== TITLE ===== */
+.title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #1f3c88;
+    margin-bottom: 25px;
+}
+
+/* ===== TABLE ===== */
+.rank-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+/* HEADER */
+.rank-table thead th {
+    background: linear-gradient(135deg, #2f80ed, #1c60c7);
+    color: #ffffff;
+    padding: 12px 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* BODY CELLS */
+.rank-table tbody td {
+    padding: 12px 10px;
+    text-align: center;
+    color: #333;
+}
+
+/* STRIPES */
+.rank-table tbody tr:nth-child(even) {
+    background-color: #f7f9fc;
+}
+
+/* HOVER */
+.rank-table tbody tr:hover {
+    background-color: #eaf1ff;
+}
+
+/* RANK BADGE */
+.rank-table tbody td:first-child {
+    font-weight: bold;
+    color: #2f80ed;
+}
+
+/* NAME COLUMN */
+.rank-table tbody td:nth-child(3) {
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* BACK LINK */
+.back-link {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.back-link a {
+    color: #2f80ed;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+/* ===== RANK PAGE ONLY ===== */
+.rank-container {
+    max-width: 1100px;   /* wider card */
+}
+/* ===== RANK PAGE OVERRIDE ===== */
+.rank-page {
+    max-width: 100%;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+/* Center the table nicely */
+.rank-page .styled-table {
+    width: 95%;
+    margin: 0 auto;
+}
+/* ===== RANK TABLE ===== */
+.styled-table {
+    width: 95%;
+    margin: 30px auto;   /* 🔥 THIS centers the table */
+    border-collapse: collapse;
+    font-size: 15px;
+    text-align: center;
+}
+.styled-table th {
+    text-align: center;
+}
