@@ -80,6 +80,4 @@ StudentPerformanceAnalyticsSystem/
 │           └── searchResult.jsp
 │
 ├── .gitignore
-├── .classpath
-├── .project
 └── README.md
