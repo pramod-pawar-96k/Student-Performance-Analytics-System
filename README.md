@@ -104,3 +104,26 @@ StudentPerformanceAnalyticsSystem/
 ### Class Performance Analytics
 
 ![Class Performance Analytics](screenshots/class-performance-analytics.png)
+
+## How to Run
+
+### Prerequisites
+
+- Java
+- MySQL
+- Apache Tomcat 9
+- MySQL Connector/J
+
+### Database Setup
+
+1. Open `database/student_db.sql`.
+2. Execute the script in MySQL to create the `student_db` database and `students` table.
+3. Update the MySQL username and password in `StudentDAO.java` with your local database credentials.
+
+### Run the Application
+
+1. Import the project into Eclipse.
+2. Configure Apache Tomcat 9 as the server.
+3. Add the project to the Tomcat server.
+4. Start the server.
+5. Open the application in a web browser.
