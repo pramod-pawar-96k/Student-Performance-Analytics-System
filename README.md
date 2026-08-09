@@ -81,3 +81,26 @@ StudentPerformanceAnalyticsSystem/
 │
 ├── .gitignore
 └── README.md
+```
+
+## Application Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Registration
+
+![Registration](screenshots/registration.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Rank List
+
+![Rank List](screenshots/rank-list.png)
+
+### Class Performance Analytics
+
+![Class Performance Analytics](screenshots/class-performance-analytics.png)
